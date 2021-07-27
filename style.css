@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Zen+Tokyo+Zoo&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  html{
+      font-size: 62.5%;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav{
+      background-color: #1a1a1a;
+      color: #f2f2f2;
+      padding-top: 1rem;
+  }
+
+.nav-con, .contenar{
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    display: flex;
+    line-height: 70px;
+    align-items: center;
+}
+label.logo{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 9.5rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: cyan;
+    
+}
+.nav-left ul{
+
+}
+.nav-left ul li{
+    display: inline-block;
+    margin-right: 2.8rem;
+}
+.nav-left ul li a{
+    padding: 1rem 1.5rem;
+    color: #f2f2f2;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: all .3s ease-in;
+}
+.nav-left ul li a:hover{
+    box-shadow: 0 0 5px cyan,
+                 0 0 5px cyan;
+   
+    border-radius: 0.4rem;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 0.9rem 2rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    border-radius: 0.3rem;
+    font-weight: 600;
+    transition: all .3s;
+    cursor: pointer;
+
+}
+.nav-right .nav-btn{
+    color: black;
+    background-color: cyan;
+    border: transparent;
+    outline: none;
+
+}
+.nav-btn:hover{
+    background:transparent;
+    color: cyan;
+    border: 2px solid cyan;
+    border-radius: 0.3rem;
+}
+
+
+
+/*s1*/
+#s1{
+    background: #1a1a1a;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 100%, 69% 75%, 0 100%, 0% 80%, 0% 20%);
+}
+.s1-con{
+    
+}
+.s1-left img {
+    width: 300px;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+}
+.s1-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25rem;
+    margin-top: 10rem;
+    margin-right: 6rem;
+}
+
+.s1-right h6 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+.s1-right h1 {
+    font-size: 3rem;
+    color: white;
+    width: 31rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.s1-right span {
+    color: cyan;
+}
+.s1-right p {
+    font-size: 1.3rem;
+    width: 45rem;
+    color: #ddd;
+    margin-bottom: 2rem;
+}
+.s1-btn {
+    border: 2px solid cyan;
+    background: transparent;
+    color: cyan;
+    
+}
+
+.s1-btn:hover{
+    background: cyan;
+    color: black;
+}
+section#s2 {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+.s2-left img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13rem;
+}
+.s2-right {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+    margin-top: -1rem;
+}
+.s2-right h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.s2-right h3 {
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.s2-right p {
+    font-size: 12px;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+.s2-icon i {
+       font-size: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    background: cyan;
+    padding: 1.5rem;
+    border-radius: 100%;
+    color: black;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 450px){
+    label.logo{
+        font-size: 1rem;
+    }
+    .nav-con, .contenar{
+        width: 452px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-con ul{
+        display: none;
+    }
+    .btn{
+        padding: 0.5rem 1rem;
+        font-size: 0.7rem;
+    }
+}
